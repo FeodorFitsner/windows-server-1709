@@ -1,0 +1,5 @@
+init:
+- appveyor version
+
+install:
+- ps: Get-ComputerInfo
