@@ -2,6 +2,7 @@ image: Windows Server 1709
 
 init:
 - appveyor version
+- ps: Get-ComputerInfo
 
 install:
-- ps: Get-ComputerInfo
+- echo test!
