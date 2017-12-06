@@ -1,3 +1,5 @@
+image: Windows Server 1709
+
 init:
 - appveyor version
 
